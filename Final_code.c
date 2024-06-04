@@ -432,3 +432,22 @@ void main(void)
         }
     }
 }
+
+/*Buttons:
+1. M - Mode Button: Used to switch between stopwatch and timer.
+2. S - Start / Set: Used to start the countdown in timer mode or start the time in stopwatch mode.
+3. + - Increase / Pause: Used to increase the time in timer mode and pause the time in stopwatch mode.
+4. - - Decrease / Reset: Used to decrease the time in timer mode and reset the time in stopwatch mode.
+5. T – Toggle: Used to toggle between seconds, minutes and hours to set the countdown time.
+Stopwatch:
+ Stopwatch is first started using the start button.
++ button is used to pause the stopwatch. Start button is pressed again to resume the paused time.
+- button is used to reset the stopwatch.
+Mode button is used to toggle between the stopwatch mode and timer mode.
+Timer:
+It first asks the user to set the seconds followed by minutes and hours.
+The user can set the timer using + and - buttons.
+The user can also press Start button at any point of time to start the countdown.
+The buzzer will be turned on for a second once the countdown is over.
+The user will now be left with two options - either to restart the timer with the same time as before or to set a new time.*/
+
